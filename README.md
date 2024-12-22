@@ -51,3 +51,47 @@ This project aims to develop a customer segmentation model for a credit card com
   - Printed the first few rows of the creditcard_cluster DataFrame for verification.
 
 ![image](https://github.com/user-attachments/assets/a6510770-3236-4a9f-8913-7ea0232db41a)
+
+--- 
+
+### 3. Conducting Principal Component Analysis (PCA)
+- PCA Initialization:
+  - Initialized PCA with 10 components.
+- PCA Transformation:
+  - Performed PCA on the standardized numeric columns, resulting in a PCA component matrix.
+- PCA DataFrame Creation:
+  - Created a DataFrame (pca_df) to hold PCA components and included CUST_ID and Cluster from the original dataset.
+- Initial PCA Results Display:
+  - Printed the first few rows of the PCA DataFrame for verification.
+- PCA Loadings Retrieval:
+  - Extracted loadings for the first four principal components and organized them in a DataFrame for clarity.
+- Display PCA Loadings:
+  - Displayed the loadings to show feature contributions to each principal component.
+- Specific PCA Loadings for PC1:
+  - Retrieved and displayed loadings specifically for the first principal component (PC1).
+- Combined PCA Loadings for PC1 and PC2:
+  - Retrieved loadings for both the first (PC1) and second (PC2) principal components and combined them in a DataFrame.
+- Final Display of Combined Loadings:
+  - Printed the combined loadings for PC1 and PC2 to evaluate feature contributions.
+
+![3](https://github.com/user-attachments/assets/acc37e44-f60b-4c19-a16e-4d4b6ec7e27d)
+
+--- 
+
+### 4. Clustering and Principal Component Analysis (PCA) Visualization
+- Visualization of Cluster Means:
+  - Plotted bar charts displaying the mean values of each feature grouped by clusters.
+  - Specifically highlighted the mean of PC1 across clusters in a separate bar chart.
+- Feature Means Across Clusters Visualization:
+  - For each selected numeric feature, created individual bar charts showing the mean values per cluster.
+
+![a](https://github.com/user-attachments/assets/c8dc8494-eee4-4cea-8790-7b4b4a8c74ec)
+![aa](https://github.com/user-attachments/assets/31491276-c8f1-4f73-98c0-65dd4f335366)
+![aaa](https://github.com/user-attachments/assets/7145a1e9-2cf7-483c-b2c9-7283ebb02c4b)
+![aaaa](https://github.com/user-attachments/assets/31a8e58c-ab22-457e-934e-e3eb03dfb3ba)
+
+- PCA1 Mean Visualization:
+  - Reiterated the visualization of the mean of PC1 by cluster to emphasize differences in PCA components across the clusters.
+
+![b](https://github.com/user-attachments/assets/d90a6e90-3fbb-4f3f-9e54-3cfc961d101e)
+
