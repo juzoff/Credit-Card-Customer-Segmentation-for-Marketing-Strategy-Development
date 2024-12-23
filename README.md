@@ -114,5 +114,6 @@ This project aims to develop a customer segmentation model for a credit card com
 ![c](https://github.com/user-attachments/assets/160fcbc4-cde4-461a-a0b8-c88e7759242b)
 
 
-- Data Export Option:
+- Data Export:
   - Prepared to save the updated dataset, including cluster assignments, for future analysis or reporting.
+    > CC_with_Clusters.csv 
