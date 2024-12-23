@@ -101,9 +101,18 @@ This project aims to develop a customer segmentation model for a credit card com
 
 - Feature Mean Analysis:
   - Printed mean values for each feature grouped by cluster, providing insight into the average metrics within each clustered group.
-- Mean PCA Component Analysis:
   - Printed mean values for the first principal component (PC1) by cluster to highlight differences in PCA representation among clusters.
+
+![d](https://github.com/user-attachments/assets/c5465c37-9810-428b-874c-7f2ac758d1ad)
+![dd](https://github.com/user-attachments/assets/3043558d-a094-4082-ab3f-505ecbcd10ac)
+![ddd](https://github.com/user-attachments/assets/2a230af8-068d-454d-a64c-9f4cf90e88da)
+
+
 - Visualization:
   - Created scatter plots for PCA1 versus PCA2, color-coded by cluster, and included descriptive labels for each cluster to facilitate interpretation of the clustered data patterns.
+
+![c](https://github.com/user-attachments/assets/160fcbc4-cde4-461a-a0b8-c88e7759242b)
+
+
 - Data Export Option:
-  - Optionally prepared to save the updated dataset, including cluster assignments, for future analysis or reporting.
+  - Prepared to save the updated dataset, including cluster assignments, for future analysis or reporting.
