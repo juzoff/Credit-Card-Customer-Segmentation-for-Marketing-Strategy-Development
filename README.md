@@ -117,3 +117,7 @@ This project aims to develop a customer segmentation model for a credit card com
 - Data Export:
   - Prepared to save the updated dataset, including cluster assignments, for future analysis or reporting.
     > CC_with_Clusters.csv 
+
+---
+
+### 6. Interpretation of Clusters, Insights, and Marketing Strategy Development 
