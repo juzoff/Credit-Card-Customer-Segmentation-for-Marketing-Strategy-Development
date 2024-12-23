@@ -121,3 +121,73 @@ This project aims to develop a customer segmentation model for a credit card com
 ---
 
 ### 6. Interpretation of Clusters, Insights, and Marketing Strategy Development 
+
+ - ​Cluster 1: Low Balance & Inactive Users
+   - BALANCE: -0.6999 (very low balance)
+   - BALANCE_FREQUENCY: -1.9718 (rarely or never use credit)
+   - PURCHASES: -0.3062 (low purchasing activity)
+   - CASH_ADVANCE: -0.3243 (minimal cash advances)
+   - PURCHASES_FREQUENCY: -0.4271 (low frequency of purchases)
+   - CREDIT_LIMIT: -0.2338 (low credit limit)
+   - MINIMUM_PAYMENTS: -0.2884 (low minimum payments)
+   - PRC_FULL_PAYMENT: 0.3410 (moderate full payment percentage)
+   - Cluster 1 represents users who have low credit card usage and balances. Their minimal credit usage, alongside moderate full payment percentage, indicates they may be cautious users who are not heavily reliant on credit cards, possibly using them for occasional purchases while paying off their balances with some consistency.
+
+   - Marketing Strategy/Strategic Actions:
+     - Incentives: Introduce cashback offers, low-interest rates, or zero-interest periods.
+     - Engagement: Send personalized campaigns and reminders for unused credit.
+     - Education: Provide financial resources on credit card benefits.
+     - Credit Growth: Offer credit limit increases for responsible usage.
+​
+- Cluster 2: Moderate Credit Users with Balanced Financial Activity
+  - BALANCE: -0.1491 (moderate balance.
+  - BALANCE_FREQUENCY: 0.4109 (moderate balance usage)
+  - PURCHASES: 0.5512 (moderate purchasing activity)
+  - CASH_ADVANCE: -0.3550 (low cash advance usage)
+  - PURCHASES_FREQUENCY: 1.0906 (moderate frequency of purchases)
+  - CREDIT_LIMIT: 0.1717 (moderate credit limit)
+  - MINIMUM_PAYMENTS: -0.0285 (almost no minimum payments, indicating good payment habits)
+  - PRC_FULL_PAYMENT: 0.4425 (moderate full payment percentage)
+  - Cluster 2 consists of users with moderate credit usage, showing responsible financial behavior. Their moderate PRC_FULL_PAYMENT and low minimum payments indicate they are proactive in paying off their balances. This group represents a well-managed consumer base, likely to benefit from targeted offers for higher credit limits or loyalty programs.
+
+  - Marketing Strategy/Strategic Actions:
+    - Retention: Implement loyalty programs with tailored rewards.
+    - Promotions: Offer exclusive discounts and seasonal deals.
+    - Upselling: Introduce premium card options with additional benefits.
+    - Credit Adjustment: Reward consistent usage with credit limit increases.
+    - Tools: Promote financial planning and budgeting tools.
+​
+- Cluster 3: Minimal Credit Usage with Low Cash Advances
+  - BALANCE: -0.0355 (low balance)
+  - BALANCE_FREQUENCY: 0.3746 (moderate balance usage)
+  - PURCHASES: -0.3374 (low purchasing activity)
+  - CASH_ADVANCE: -0.0934 (minimal cash advances)
+  - PURCHASES_FREQUENCY: -0.7054 (low frequency of purchases)
+  - CREDIT_LIMIT: -0.3526 (low credit limit)
+  - MINIMUM_PAYMENTS: -0.0174 (very low minimum payments)
+  - PRC_FULL_PAYMENT: -0.4467 (low full payment percentage)
+  - Cluster 3 represents users with minimal credit card usage but a slightly higher level of engagement than Cluster 1. While their purchasing frequency and credit usage are still low, the group occasionally takes cash advances and carries balances. The low PRC_FULL_PAYMENT suggests these users may prefer to carry some debt over time rather than paying off balances entirely.
+
+  - Marketing Strategy/Strategic Actions:
+    - Reactivation: Run campaigns with sign-up bonuses and low-barrier challenges.
+    - Feedback: Use surveys to understand inactivity reasons.
+    - Incentives: Waive fees to reduce usage barriers.
+    - Education: Highlight credit card advantages like credit score building.
+​
+- Cluster 4: High-Value & Premium Users
+  - BALANCE: -0.0355 (low balance)
+  - BALANCE_FREQUENCY: 0.3746 (moderate balance usage)
+  - PURCHASES: -0.3374 (low purchasing activity)
+  - CASH_ADVANCE: -0.0934 (minimal cash advances)
+  - PURCHASES_FREQUENCY: -0.7054 (low frequency of purchases)
+  - CREDIT_LIMIT: -0.3526 (low credit limit)
+  - MINIMUM_PAYMENTS: -0.0174 (very low minimum payments)
+  - PRC_FULL_PAYMENT: -0.4467 (low full payment percentage)
+  - Cluster 4 represents high-value users with large credit limits and significant engagement. While their purchase activity is low, the group heavily relies on cash advances, suggesting they use credit for larger, emergency transactions or short-term liquidity needs. Their low PRC_FULL_PAYMENT indicates they may carry higher balances over time, potentially offering opportunities for premium services or lending products.
+
+  - Marketing Strategy/Strategic Actions:
+    - Premium Rewards: Offer VIP benefits such as lounge access and luxury experiences.
+    - Personalized Services: Provide financial advisory and spending optimization tools.
+    - Flexibility: Enable customized installment plans and longer grace periods.
+    - Exclusive Access: Early access to new products and tailored high-value offers.
+    - Milestones: Create reward levels for continued engagement and spending milestones.
